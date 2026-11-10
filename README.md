@@ -10,7 +10,7 @@ REST API cho **Aristino**, website thương mại điện tử thời trang nam 
 - Đăng ký / đăng nhập bằng JWT
 - Xem, tìm kiếm, lọc sản phẩm (có biến thể size/màu) và phân trang
 - Giỏ hàng, sổ địa chỉ, đặt hàng và theo dõi đơn hàng
-- Hủy đơn; quy trình yêu cầu trả hàng / hoàn tiền
+- Hủy đơn, hoàn tiền
 - Đánh giá và chấm điểm sản phẩm
 - Thanh toán online (VNPay / MoMo) **mô phỏng** bằng cổng thanh toán giả lập, bên cạnh thanh toán khi nhận hàng (COD)
 - Chatbot tư vấn mua sắm bằng AI (Gemini API)
@@ -55,7 +55,7 @@ CREATE DATABASE aristino_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 Sau đó import cấu trúc bảng:
 
 ```bash
-mysql -u root -p aristino_db < database/schema.sql
+mysql -u root -p aristino_db < database/aristino_schema.sql
 ```
 
 Thêm 2 vai trò (bắt buộc để đăng ký tài khoản hoạt động):
