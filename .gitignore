@@ -1,0 +1,14 @@
+target/
+uploads/
+.settings/
+.classpath
+.project
+.factorypath
+.idea/
+*.iml
+.vscode/
+application.yml
+application.properties
+.env
+*.log
+.DS_Store
