@@ -2,7 +2,7 @@
 
 REST API cho **Aristino**, website thương mại điện tử thời trang nam tích hợp chatbot tư vấn bằng AI. Xây dựng bằng Spring Boot 3, Spring Security (JWT) và MySQL.
 
-> Repo frontend: [aristino-frontend](https://github.com/TEN_BAN/aristino-frontend)
+> Repo frontend: [aristino-frontend](https://github.com/vhd240305/aristino-frontend)
 
 ## Tính năng
 
